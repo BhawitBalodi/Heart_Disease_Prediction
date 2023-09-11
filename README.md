@@ -39,3 +39,16 @@ Tracking your heart is crucial for early detection of issues like hypertension o
 11) target :
      0= less chance of heart attack
      1= more chance of heart attack
+
+
+
+
+# Screenshorts
+
+| Home      |
+|------------|
+| <img src="https://github.com/BhawitBalodi/Heart_Disease_Prediction/assets/82761457/a35c2758-9314-4430-b43b-bccabba61450.png"> |
+
+| Scroll      |
+|------------|
+| <img src="https://github.com/BhawitBalodi/Heart_Disease_Prediction/assets/82761457/3abc1a7c-e167-4b4b-932c-075179b147d3.png"> |
