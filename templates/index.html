@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>❤ Heart Prediction</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+
+</head>
+
+<body>
+    
+    <section class="backimg">
+        <div class="navbar">
+            <div class="img-logo">
+                <h1>HP</h1>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">contact us</a></li>
+                <li><a href="">location</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1 style="font-size: 60;"> Heart Disease Prediction</h1>
+            <p>This site will help you to predict your heart disease, whether you have some problem or not!</p>
+            <br>
+            <p class="keeptrack">Why to keep track of your heart??</p>
+            <br>
+            <p class="para">Tracking your heart is crucial for early detection of issues like hypertension or high cholesterol, 
+                enabling preventive care and lifestyle adjustments. It ensures effective medication management, 
+                monitors post-surgery recovery, and enhances overall quality of life. Prioritizing heart health promotes longevity 
+                and a healthier, more fulfilling life.</p>
+
+        </div>
+
+        
+    
+
+    </section>
+
+
+    <section class="backimg2">
+        <div class="container">
+            <h1 style="font-style: italic;">Fill the information correctly.</h1>
+            <div class="inside-container">
+                <form action="/predict" , method="POST" , enctype="multipart/form-data">
+
+
+                    <div class="formdesign">
+                        <input type="number" style="color: white;" name="age" placeholder="Enter Age">
+                    </div>
+
+
+                    <div class="formdesign">
+                        <input type="number" style="color: white;" name="sex" placeholder="Enter Sex">
+                    </div>
+
+                    <div class="formdesign">
+                        <input type="number" style="color: white;" name="cp" placeholder="Enter chest pain type">
+                    </div>
+
+                    <div class="formdesign">
+                        <input type="number" style="color: white;" name="trtbps" placeholder="Enter resting blood pressure">
+                    </div>
+
+                    <div class="formdesign">
+                        <input type="number" style="color: white;" name="chol" placeholder="Enter  cholestoral">
+                    </div>
+
+                    <div class="formdesign">
+                        <input type="number" style="color: white;" name="fbs" placeholder="Enter fasting blood sugar">
+                    </div>
+
+                    <div class="formdesign">
+                        <input type="number" style="color: white;" name="restecg" placeholder="Enter resting electrocardiographic results">
+                    </div>
+
+                    <div class="formdesign">
+                        <input type="number" style="color: white;" name="thalachh" placeholder="Enter maximum heart rate achieved">
+                    </div>
+
+                    <div class="formdesign">
+                        <input type="number" style="color: white;" name="exng" placeholder="Enter exercise induced angina ">
+                    </div>
+
+                    <div class="formdesign">
+                        <input type="number" style="color: white;" name="caa" placeholder="Enter number of major vessels">
+                    </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block btn-large button1"
+                style="color: rgb(255, 254, 254)">Predict</button>
+
+        </div>
+
+        </form>
+        <div class="formdesign">
+            <span class="sub-heading">{{ prediction }}</span>
+        </div>
+
+    </section>
+</body>
+
+</html>
