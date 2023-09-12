@@ -52,3 +52,8 @@ Tracking your heart is crucial for early detection of issues like hypertension o
 | Scroll      |
 |------------|
 | <img src="https://github.com/BhawitBalodi/Heart_Disease_Prediction/assets/82761457/3abc1a7c-e167-4b4b-932c-075179b147d3.png"> |
+
+
+# For running enviroment
+1)  Set-ExecutionPolicy Bypass -Scope Process
+2)  myenv\Scripts\activate
